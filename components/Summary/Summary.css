@@ -1,0 +1,16 @@
+.summary{
+    /* border debug */
+    /* border : 10px red solid; */
+    flex: 1;
+    text-align: center;
+}
+
+.summary h1{
+    font-family: Source;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.summary h3{
+    white-space: normal;
+}

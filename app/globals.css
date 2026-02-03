@@ -28,3 +28,57 @@ body {
     font-family : Source;
     src: url(../font/static/SourceSerif4_18pt-Regular.ttf);
 }   
+
+@keyframes appear{
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes title-transition {
+  from {
+    scale : 2;
+  }
+  to {
+    scale : 1;
+  }
+}
+/* .page-wrapper{
+
+} */
+.core-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1900px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid rgba(81, 81, 81, 0.3);
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .core-container {
+    margin: 10px;      /* Moins de marge sur mobile */
+    padding: 15px;
+    border-radius: 20px;  /* Coins moins arrondis */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .core-container {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .core-container {
+    max-width: 1200px;
+  }
+}
