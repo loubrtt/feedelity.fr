@@ -22,5 +22,9 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+    font-family : Source;
+    src: url(../font/static/SourceSerif4_18pt-Regular.ttf);
+}   
