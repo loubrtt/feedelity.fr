@@ -1,0 +1,14 @@
+.footer{
+    /* margin-bottom: 300px; */
+}
+
+.legal-mentions{
+    height: 200px;
+}
+
+.curved-text{
+    text-align: center;
+    font-family: Source;
+    color: #09572d;
+    font-weight: 500;
+}

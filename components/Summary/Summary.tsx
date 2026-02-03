@@ -2,9 +2,10 @@ import './Summary.css'
 
 export default function Summary () {
     return (
-        <>
+        <div className='component-container'>
             <div className="summary">
-                <h1>Votre site, a vous, <strong>partout</strong>.</h1>
+                <h1>Votre site, à vous, <strong>partout</strong>.</h1>
+                <br/>
                 <h3>🍽️ Marre de payer des abonnements pour des sites que vous ne possédez pas ?<br/>
                 Avec Feedelity, vous êtes PROPRIÉTAIRE de votre site.<br/>
                 <br/>
@@ -19,6 +20,6 @@ export default function Summary () {
                 <br/>
                 Créé par Lou, développeuse freelance et passionnée de gastronomie.</h3>
             </div>
-        </>
+        </div>
     )
 }

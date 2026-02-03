@@ -1,4 +1,4 @@
-.summary{
+.partners{
     /* border debug */
     /* border : 10px red solid; */
     flex: 1;
@@ -8,12 +8,24 @@
     animation-range: entry 0% cover 40px;
 }
 
-.summary h1{
+.partners h1{
     font-family: Source;
     font-weight: 400;
     font-size: 30px;
 }
 
-.summary h3{
+.partners h3{
     white-space: normal;
+}
+
+.swipe-partners{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+}
+
+.arrow{
+    font-size: large;
+    width: 40px;
 }

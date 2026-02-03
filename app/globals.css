@@ -61,8 +61,13 @@ body {
   border: 1px solid rgba(81, 81, 81, 0.3);
   border-radius: 30px;
   box-sizing: border-box;
+  height: 2000px;
 }
 
+.component-container{
+  border: 1px solid rgba(81, 81, 81, 0.3);
+  border-radius: 30px;
+}
 @media (max-width: 768px) {
   .core-container {
     margin: 10px;      /* Moins de marge sur mobile */
