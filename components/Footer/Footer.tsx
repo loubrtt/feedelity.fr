@@ -48,6 +48,7 @@ export default function Footer() {
                     fill="none"
                     id="curve"
                 />
+                
                 <text className="curved-text">
                     {Array.from({ length: 5 }).map((_, i) => (<textPath ref={ref => texts.current[i] = ref} href="#curve" key={i} startOffset={i * 22 + "%"}> Hello les coupains</textPath>))}
                 </text>
